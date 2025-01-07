@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Club - Color Code Encryptor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="Crypto Club Logo" class="logo">
+            <h1>Crypto Club - Color Code Encryptor</h1>
+        </header>
+        <p>Convert your text into beautiful HEX color codes and decode them back!</p>
+        <div class="input-section">
+            <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+            <button onclick="encodeText()">Encode</button>
+            <button onclick="decodeColors()">Decode</button>
+        </div>
+        <div id="colorOutput" class="output-section"></div>
+        <div id="decodedText" class="output-section"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
